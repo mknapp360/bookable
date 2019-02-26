@@ -39,12 +39,20 @@ body{
   padding:20px;
 }
 
-#section-c .box-1, #section-c .box-3{
+#section-c .box-1{
   background:#29ab00;
   color:#fff;
+  width: 33%;
 }
 
 #section-c .box-2{
   background:#f4f4f4;
   color:#000000;
+  width: 33%;
+}
+
+#section-c .box-3{
+  background:#29ab00;
+  color:#fff;
+  width: 33%;
 }
