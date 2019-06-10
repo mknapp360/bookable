@@ -1,147 +1,589 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
-  <meta charset="UTF-8">
+  <!-- BASICS -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>BOOKABLE - HOW Bookable is your business?</title>
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link href="css/responsive-slider.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
-  <title>Bookable</title>
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- skin -->
+  <link rel="stylesheet" href="skin/default.css">
+  <!-- =======================================================
+    Theme Name: Green
+    Theme URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
 
-  
 <body>
 
-  
-  <header id="showcase">
-      <h1 style="color:white; text-align:center;">HOW BOOKABLE IS YOUR BUSINESS?</h1>
-      
-       <div id="showcase-top">
-            <img src="img/bookable-3.png">  
-       </div>
-  
-  </header>
-  
-    <section id="section-a">
-        <h2>Every successful business focuses on 3 aspects: Product, Pitch, and Process.</h2>
-        <h2>Bookable helps you get on track.</h2>
-    </section>
-  
-  <section class="tabs">
-      <div class="container">
-          <div id="tab-1" class="tab-item tab-border">
-              <i class="fa fa-industry fa-3x"></i>
-              <p class="hide-sm">PRODUCT</p>
-          </div>
-          <div id="tab-2" class="tab-item">
-              <i class="fa fa-bullhorn fa-3x"></i>
-              <p class="hide-sm">PITCH</p>
-          </div>
-          <div id="tab-3" class="tab-item">
-              <i class="fa fa-cogs fa-3x"></i>
-              <p class="hide-sm">PROCESS</p>
-          </div>
+
+  <div class="header">
+    <section id="header" class="appear">
+
+      <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="fa fa-bars color-white"></span>
+          </button>
+          <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">BOOKABLE
+            </a>
+            </h1>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+            <li class="active"><a href="#header">Home</a></li>
+            <li><a href="#section-product">Product</a></li>
+            <li><a href="#section-pitch">Pitch</a></li>
+                <li><a href="#section-process">Process</a></li>
+            <li><a href="#team">Team</a></li>
+			<li><a href="#section-contact">Contact</a></li>
+          </ul>
+        </div>
+        <!--/.navbar-collapse -->
       </div>
-      
-  </section>
-  
-  <section class="tab-content">
-      <div class="content-container">
-         <!-- tab content 1 -->
-          <div id="tab-1-content" class="tab-content-item show">
-              <div class="tab-1-content-inner">
-                  <div>
-                                          
-                      <section id="section-b">
-                        <div class="box-1">
-                            <h2>PRODUCT</h2>
-                                <h3>Your business has two products it needs to take care of: 
-                                    <ul>
-                                        <li>the business itself</li>
-                                        <li>the product it creates</li>
-                                    </ul>
-                                    If you don't care for your business, it won't continue to exist. Likewise, if you don't carefully devlop a product, sales won't be made. To ensure your success, you need to focus on three things to begin with:
-                                    <ul>
-                                        <li>creating a solid business plan </li>
-                                        <li>creating a marketable product</li>
-                                        <li>creating a profitable pricing structure</li>
-                                    </ul>
-                            </h3> 
-                      </div>
-                        
-                      </section>  
-                  </div> 
-                  <div class="box-11">
-                        <img src="img/productBackground.png" align="right"> 
-                  </div> 
-                
+
+
+    </section>
+  </div>
+
+
+  <div class="slider">
+    <div id="about-slider">
+      <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators visible-xs">
+          <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-slider" data-slide-to="1"></li>
+          <li data-target="#carousel-slider" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active" style="background-image: url(img/1.jpg);">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                <h2>How Bookable is your business?</h2>
               </div>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                  <p>Martin, let me know what's the text???</p>
+                </div>
+              </div>
+   
+            </div>
           </div>
-          
-            <div id="tab-2-content" class="tab-content-item">
-              <div class="tab-2-content-inner">
-                  <div>
-                                          
-                      <section id="section-c">
-                        <div class="box-2">
-                            <h2>PITCH</h2>
-                                <h3>Many business owners believe advertising and software will automatically bring in new clients. Yet they don't spend the time learning what their audience wants to hear. Consequently, a lot of time and money is wasted with little to show. <br><br>To maximize your marketing efforts you need to accomplish the following things:
-                                    <ul>
-                                        <li>determine what your company stands for and how it wants to be seen</li>
-                                        <li>determine your target market & analyze your audience</li>
-                                        <li>develop a marketing plan & messaging that resonates with market</li>
-                                    </ul>
-                            </h3>
-                            
-                      </div>
-                        
-                      </section>  
-                  </div> 
+
+          <div class="item" style="background-image: url(img/2.jpg);">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
+                <h2>How Bookable is your business?</h2>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                  <p>Another slogan</p>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+        </div>
+
+        <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+
+        <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
+      <!--/#carousel-slider-->
+    </div>
+    <!--/#about-slider-->
+  </div>
+  <!--/#slider-->
+
+  <!--about-->
+  <section id="section-product">
+    <div class="container">
+      <div class="about">
+        <div class="row mar-bot40">
+          <div class="col-md-offset-3 col-md-6">
+            <div class="title">
+              <div class="wow bounceIn">
+
+                <h2 class="section-heading animated" data-animation="bounceInUp">Product</h2>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="row-slider">
+            <div class="col-lg-6 mar-bot30">
+              <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+                <div class="slides" data-group="slides">
+                  <ul>
+
+                    <div class="slide-body" data-group="slide">
+                      <li><img alt="" class="img-responsive" src="img/productBackground2.png" width="100%" height="350" /></li>
+                      <li><img alt="" class="img-responsive" src="img/productBackground2.png" width="100%" height="350" /></li>
+                      <li><img alt="" class="img-responsive" src="img/productBackground2.png" width="100%" height="350" /></li>
+
+                    </div>
+                  </ul>
+                  <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
+                  <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 ">
+              <div class="company mar-left10">
+                <h4>Your business has two products it needs to take care of:</h4>
+                <!--<p>Your business has two products it needs to take care of:</p>-->
+              </div>
+              <div class="list-style">
+                <div class="row">
+                  <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <ul>
+                      <li>the business itself</li>
+                      <li>the product it creates</li>
                   
-                  <div class="box-22">
-                       <img src="img/pitchBackground.png" align="right">                                       
-                  </div> 
+                    </ul>
+                  </div>
                 
+                </div>
               </div>
-          </div>
-          
-         <div id="tab-3-content" class="tab-content-item">
-              <div class="tab-3-content-inner">
-                  <div>
-                                          
-                      <section id="section-d">
-                        <div class="box-3">
-                            <h2>PROCESS</h2>
-                                <h3>How smoothly you're able to deliver your product or service determines how well your brand is received and how difficult your business day is. <br><br>Your business needs to focus on the following processes to create a great client experience and make the business thrive:
-                                    <ul>
-                                        <li>product production & delivery</li>
-                                        <li>the sales process</li>
-                                        <li>the administrative process</li>
-                                        <li>the customer relations process</li>
-                                    </ul>
-                            </h3>
-                      </div>
-                        
-                      </section>  
-                  </div> 
-                  <div class="box-33">
-                        <img src="img/processBackground.png" align="right"> 
-                  </div> 
-                
+              
+               <div class="company mar-left10">
+               
+              <p>If you don't care for your business, it won't continue to exist. Likewise, if you don't carefully devlop a product, sales won't be made. To ensure your success, you need to focus on three things to begin with:</p>
               </div>
+              <div class="list-style">
+                <div class="row">
+                  <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <ul>
+                      <li>creating a solid business plan</li>
+                      <li>creating a marketable product</li>
+                  <li>creating a profitable pricing structure</li>
+                    </ul>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+
           </div>
-          
+        </div>
+
+      </div>
+
     </div>
   </section>
-  
-  <footer class="footer">
-      <h3>Questions?  Email: info@bookable.online</h3>
-          
-  </footer>
-  
-        
+  <!--/section-->
+  <!-- spacer section:testimonial -->
+  <section id="testimonials-2" class="section" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="align-center">
+            <div class="testimonial pad-top40 pad-bot40 clearfix">
+              <h5>
+             Space for quotes ....
+              </h5>
+              <br />
+              <span class="author">&mdash; Author</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+ <section id="section-pitch">
+    <div class="container">
+      <div class="about">
+        <div class="row mar-bot40">
+          <div class="col-md-offset-3 col-md-6">
+            <div class="title">
+              <div class="wow bounceIn">
+
+                <h2 class="section-heading animated" data-animation="bounceInUp">Pitch</h2>
 
 
-<script src="js/main.js"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="row-slider">
+            <div class="col-lg-6 mar-bot30">
+              <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+                <div class="slides" data-group="slides">
+                  <ul>
+
+                    <div class="slide-body" data-group="slide">
+                      <li><img alt="" class="img-responsive" src="img/pitchBackground.png" width="100%" height="350" /></li>
+                      <li><img alt="" class="img-responsive" src="img/pitchBackground.png" width="100%" height="350" /></li>
+                      <li><img alt="" class="img-responsive" src="img/pitchBackground.png" width="100%" height="350" /></li>
+
+                    </div>
+                  </ul>
+                  <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
+                  <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 ">
+              <div class="company mar-left10">
+                <p>Many business owners believe advertising and software will automatically bring in new clients. Yet they don't spend the time learning what their audience wants to hear. Consequently, a lot of time and money is wasted with little to show. </p>
+                <p>To maximize your marketing efforts you need to accomplish the following things:</p>
+              </div>
+              <div class="list-style">
+                <div class="row">
+                  <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <ul>
+                      <li>determine what your company stands for and how it wants to be seen</li>
+                      <li>determine your target market & analyze your audience</li>
+                      <li>develop a marketing plan & messaging that resonates with market</li>
+                
+                    </ul>
+                  </div>
+               
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!--/section-->
+  <!-- spacer section:testimonial -->
+  <section id="testimonials" class="section" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="align-center">
+            <div class="testimonial pad-top40 pad-bot40 clearfix">
+              <h5>
+              Quote ..................
+              </h5>
+              <br />
+              <span class="author">&mdash; Author</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+ <section id="section-process">
+    <div class="container">
+      <div class="about">
+        <div class="row mar-bot40">
+          <div class="col-md-offset-3 col-md-6">
+            <div class="title">
+              <div class="wow bounceIn">
+
+                <h2 class="section-heading animated" data-animation="bounceInUp">Process</h2>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="row-slider">
+            <div class="col-lg-6 mar-bot30">
+              <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+                <div class="slides" data-group="slides">
+                  <ul>
+
+                    <div class="slide-body" data-group="slide">
+                      <li><img alt="" class="img-responsive" src="img/processBackground.png" width="100%" height="350" /></li>
+                      <li><img alt="" class="img-responsive" src="img/processBackground.png" width="100%" height="350" /></li>
+                      <li><img alt="" class="img-responsive" src="img/processBackground.png" width="100%" height="350" /></li>
+
+                    </div>
+                  </ul>
+                  <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
+                  <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 ">
+              <div class="company mar-left10">
+           
+                <p>How smoothly you're able to deliver your product or service determines how well your brand is received and how difficult your business day is. </p>
+                <p>Your business needs to focus on the following processes to create a great client experience and make the business thrive:</p>
+              </div>
+              <div class="list-style">
+                <div class="row">
+                  <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <ul>
+                      <li>product production & delivery</li>
+                      <li>the sales process</li>
+                      <li>the administrative process</li>
+                      <li>the customer relations process</li>
+                    </ul>
+                  </div>
+              
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!--/section-->
+
+
+  
+
+
+
+  <!-- team -->
+  <section id="team" class="team-section appear clearfix">
+    <div class="container">
+
+      <div class="row mar-bot10">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <div class="wow bounceIn">
+
+              <h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
+              <p>Intro for the team</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-center mar-bot45">
+        <div class="col-md-4">
+          <div class="wow bounceIn" data-animation-delay="4.8s">
+            <div class="team-member">
+              <div class="profile-picture">
+                <figure><img src="img/elaine-flook.jpg" alt=""></figure>
+                <div class="profile-overlay"></div>
+                <div class="profile-social">
+                  <div class="icons-wrapper">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-detail">
+                <h4>Elaine Flook</h4>
+                <span>Business Performance Therapist</span>
+              </div>
+              <div class="team-bio">
+                <p>Elaine is an experienced and consummate practitioner who has been working on herself and others for over 25 years. Combining her compassion and intuition with her corporate experience she has the rare ability to show humility whilst being robust enough to hold clients through very tough challenges both personally and in business.
+
+
+	                
+	                
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+
+          <div class="wow bounceIn">
+            <div class="team-member">
+              <div class="profile-picture">
+                <figure><img src="img/martin-knapp.jpg" alt=""></figure>
+                <div class="profile-overlay"></div>
+                <div class="profile-social">
+                  <div class="icons-wrapper">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-detail">
+                <h4>Martin Knapp</h4>
+                <span>Bookable Founder</span>
+              </div>
+              <div class="team-bio">
+                <p>We need bio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="wow bounceIn">
+            <div class="team-member">
+              <div class="profile-picture">
+                <figure><img src="img/marcin-choszczyk.jpg" alt=""></figure>
+                <div class="profile-overlay"></div>
+                <div class="profile-social">
+                  <div class="icons-wrapper">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-detail">
+                <h4>Marcin Choszczyk</h4>
+                <span>Web developer</span>
+              </div>
+              <div class="team-bio">
+                <p>I'm website designer and developer. I have experience in creating bespoke websites to suite customer and market requirements. With over 200 websites build since 2007 I have ability to adapt quickly to fast world wide web development. I've been working in industries like: Wellbeing, Travel & Leisure, Entertainment, Jewellery, Construction, Financial Services, Art and many more. My goal is to make world a better place.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- /team -->
+
+ 
+
+  <!-- spacer section:testimonial -->
+  <section id="testimonials-2" class="section" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="align-center">
+            <div class="testimonial pad-top40 pad-bot40 clearfix">
+              <h5>
+             Space for quotes ....
+              </h5>
+              <br />
+              <span class="author">&mdash; Author</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  
+
+
+  <!-- contact -->
+  <section id="section-contact" class="section appear clearfix">
+    <div class="container">
+
+      <div class="row mar-bot40">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated" data-animation="bounceInUp">Contact us</h2>
+            <p>E-mail: <a href="mailto:info@bookable.online"> info@bookable.online</a></p>
+          </div>
+        </div>
+      </div>
+  
+
+    </div>
+  </section>
+
+
+  <section id="footer" class="section footer">
+    <div class="container">
+      <div class="row animated opacity mar-bot0" data-andown="fadeIn" data-animation="animation">
+        <div class="col-sm-12 align-center">
+          <ul class="social-network social-circle">
+       
+            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row align-center copyright">
+        <div class="col-sm-12">
+          <p>&copy; 2019 Bookable - How bookable is your business?</p>
+          <div class="credits">
+            
+           Questions? Email: <a href="mailto:info@bookable.online">info@bookable.online</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.localScroll.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/responsive-slider.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+  <script src="contactform/contactform.js"></script>
+
 </body>
+
 </html>
