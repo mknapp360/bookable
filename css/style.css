@@ -1587,11 +1587,11 @@ About
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   margin-bottom: 0;
-  color: #000;
+  color: #fff;
 }
 
 .team-member:hover {
-  background-color: rgba(91, 223, 48, 0.12)
+  background-color: rgba(41, 101, 22, 1);
 }
 
 .team-member:hover .profile-picture .profile-overlay {
